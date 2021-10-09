@@ -27,7 +27,14 @@
 
 ## 商品列表获取
 	地址 ：   POST https://img.zc511.com/getway/v1/goodslist_get.shtml
-	入参 {"pageNum":"1","pageSize":"5","buyerCode":"33300098",keywords:"关键词(可选)"}
+	入参 
+	{
+		"pageNum":"1",
+		"pageSize":"5",
+		"buyerCode":"33300098",
+		"keywords":"关键词(可选)",
+		"productCode":"编号(可选)"
+	}
 	
 ## 加入购物车
 	地址 ：   POST https://img.zc511.com/getway/v1/shoppingcart_add.shtml
