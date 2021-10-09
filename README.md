@@ -63,15 +63,31 @@
 		
 ## 红包冲入
 	地址 ：   POST https://img.zc511.com/getway/v1/red_envelopes_fill.shtml	
-	入参 {"couponId":"1","buyerCode":"33300098"}
+	入参
+	 
+	{
+	  "redEnvelopesId":"1",
+	  "buyerCode":"33300098"
+	}
 	
 ## 优惠劵列表获取
 	地址 ：   POST https://img.zc511.com/getway/v1/couponlist_get.shtml
-	入参 {"pageNum":"1","pageSize":"5","buyerCode":"33300098"}
+	入参 
+	 {
+	 	"activitiesId":1, //活动ID(可选)
+	 	"liveId":1, //直播id(可选)
+		"buyerCode":"33300098"
+	 }
 	
 ## 优惠劵发放
 	地址 ：   POST https://img.zc511.com/getway/v1/coupon_give.shtml
-	入参 {"couponId":"1","buyerCode":"33300098"}
+	入参 
+	{
+		"activitiesId":1, //活动ID(可选)
+		"liveId":1, //直播id(可选)
+		"couponId":"1",
+		"buyerCode":"33300098"
+	}
 
 
 
